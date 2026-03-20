@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="4FFC296C-5A88-5EB8-0499-1FCD73DF2AAD" mainViewID="037F8DF6-C118-3D4B-8C55-1C29A6F32EFF">
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:34:47 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>D9582E4E-79E2-319F-387A-2ED963CB9D32</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>DDL_No3_Perusahaan_Industri_Komputer (1).sql</fileName>
+<pathName>C:\Users\USER\Downloads</pathName>
+<dbType>8</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

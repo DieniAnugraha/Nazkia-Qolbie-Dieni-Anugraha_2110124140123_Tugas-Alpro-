@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="studi kasus 3 sbd" id="FE6D3803-0345-7821-4836-C31B464BF610" version="3.5">
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:34:45 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FE6D3803-0345-7821-4836-C31B464BF610</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="05460610-0AC5-9C75-5BC8-968DED4ABAB4">
+<designStoragePath>C:\DDL_No3_Perusahaan_Industri_Komputer (1)</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

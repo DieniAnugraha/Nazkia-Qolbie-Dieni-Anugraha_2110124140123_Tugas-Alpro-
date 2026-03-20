@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="EMPLOYEE_PROJECTS" directorySegmentName="seg_0" id="40665B34-6E00-E5FC-E31D-ED0F811EE462">
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="employee_id" id="5210509F-A6E2-A383-BA13-7845EA35915C">
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="role" id="548A62F0-AD07-32DF-602F-CED9FD966C74">
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="project_id" id="8FD44F85-0290-9CE8-31D1-D4A03C9ACBA0">
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_ep_employee" id="8689CC6D-E72F-F1CA-ED9E-A7E0684C8F0F">
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_ep_project" id="B8568B4F-3124-3019-FB6D-F2CB9D91F944">
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_employee_projects" id="60C25CD3-22E8-1E76-B8A5-6735B42E2056">
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

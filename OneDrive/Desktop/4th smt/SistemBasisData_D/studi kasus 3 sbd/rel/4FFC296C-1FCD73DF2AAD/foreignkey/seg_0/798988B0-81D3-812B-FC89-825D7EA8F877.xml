@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="798988B0-81D3-812B-FC89-825D7EA8F877" containerWithKeyObject="AA4059A0-F274-6550-6241-89A711AD459F" localFKIndex="63858B71-419F-00AC-B91D-0BB47C2325AD" name="fk_esd_employee">
+<sourceDDLFile>DDL_No3_Perusahaan_Industri_Komputer (1).sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<importedID>576B7AA2-3139-A332-7EF7-A6ED84EEA90D</importedID>
+<referredTableLongName>EMPLOYEES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>078696E8-F245-0A6C-20A4-3339C653C698</referredTableID>
+<keyObject>09D6CB31-191F-B673-83D1-F4F88E708D72</keyObject>
+<referredKeyID>09D6CB31-191F-B673-83D1-F4F88E708D72</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>employee_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA4059A0-F274-6550-6241-89A711AD459F" name="EMPLOYEE_SKILL_DETAIL">
+<sourceDDLFile>DDL_No3_Perusahaan_Industri_Komputer (1).sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<importedID>4DBA7726-DCC9-F51A-9003-9F702C2EEEF2</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_id" id="5906B43B-22DF-4775-F90C-C8B4E3187764">
+<sourceDDLFile>DDL_No3_Perusahaan_Industri_Komputer (1).sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<importedID>ADE89476-359A-E934-8212-AEF40B2EB446</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F87884FB-74DB-A061-F3E1-346EF55EFD47</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="798988B0-81D3-812B-FC89-825D7EA8F877" referredColumn="026B42D1-24A3-78A3-9D6B-34873529168C"/>
+</associations>
+</Column>
+<Column name="skill_id" id="67ACB8A2-CC73-9A62-9278-788AA493D5B6">
+<sourceDDLFile>DDL_No3_Perusahaan_Industri_Komputer (1).sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<importedID>87AC871D-1AEC-4CBC-E720-D426FAC07311</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F87884FB-74DB-A061-F3E1-346EF55EFD47</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0590C339-0788-313C-B4DA-318D03944A37" referredColumn="8F7268FE-6891-AD4D-633B-71C55871186F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9C42601-9CF4-FB7A-03FA-ACA229197100" name="pk_employee_skill">
+<sourceDDLFile>DDL_No3_Perusahaan_Industri_Komputer (1).sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<importedID>76309B2B-3316-37AB-06EE-7D786F2F9BD9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5906B43B-22DF-4775-F90C-C8B4E3187764"/>
+<colUsage columnID="67ACB8A2-CC73-9A62-9278-788AA493D5B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63858B71-419F-00AC-B91D-0BB47C2325AD" name="fk_esd_employee">
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5906B43B-22DF-4775-F90C-C8B4E3187764"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21EA58C9-BCF6-BF3A-E50D-8B6819E9601B" name="fk_esd_skill">
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67ACB8A2-CC73-9A62-9278-788AA493D5B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

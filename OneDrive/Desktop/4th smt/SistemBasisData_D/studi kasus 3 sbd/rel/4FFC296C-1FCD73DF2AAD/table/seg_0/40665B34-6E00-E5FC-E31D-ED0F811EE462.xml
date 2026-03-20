@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40665B34-6E00-E5FC-E31D-ED0F811EE462" name="EMPLOYEE_PROJECTS">
+<sourceDDLFile>DDL_No3_Perusahaan_Industri_Komputer (1).sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<importedID>A6BACC2D-C6CE-1EDA-AD0A-C1DC16DFC4A8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="employee_id" id="5210509F-A6E2-A383-BA13-7845EA35915C">
+<sourceDDLFile>DDL_No3_Perusahaan_Industri_Komputer (1).sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<importedID>C9D48C5D-3CC7-8901-3DED-4E4D881E5680</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F87884FB-74DB-A061-F3E1-346EF55EFD47</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="962C7999-E4BA-E730-A15C-BC5FDEC8F3CF" referredColumn="026B42D1-24A3-78A3-9D6B-34873529168C"/>
+</associations>
+</Column>
+<Column name="project_id" id="8FD44F85-0290-9CE8-31D1-D4A03C9ACBA0">
+<sourceDDLFile>DDL_No3_Perusahaan_Industri_Komputer (1).sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<importedID>04474471-8530-E4BA-3923-66A1C831BBA8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F87884FB-74DB-A061-F3E1-346EF55EFD47</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61B81064-C0E6-BA0D-AB59-E64E1976CF2E" referredColumn="CA1BB541-96D9-AC8B-E1F3-39DC757D8FD2"/>
+</associations>
+</Column>
+<Column name="role" id="548A62F0-AD07-32DF-602F-CED9FD966C74">
+<sourceDDLFile>DDL_No3_Perusahaan_Industri_Komputer (1).sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<importedID>74A4E2F3-8DF0-E576-0706-4ACFCEF32A86</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8ED12FD2-7FE9-6B21-AF53-CC5EFC2B9FFB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60C25CD3-22E8-1E76-B8A5-6735B42E2056" name="pk_employee_projects">
+<sourceDDLFile>DDL_No3_Perusahaan_Industri_Komputer (1).sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<importedID>E23E7174-AE4C-DE4C-8AC8-F715215EC729</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5210509F-A6E2-A383-BA13-7845EA35915C"/>
+<colUsage columnID="8FD44F85-0290-9CE8-31D1-D4A03C9ACBA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8689CC6D-E72F-F1CA-ED9E-A7E0684C8F0F" name="fk_ep_employee">
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5210509F-A6E2-A383-BA13-7845EA35915C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8568B4F-3124-3019-FB6D-F2CB9D91F944" name="fk_ep_project">
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FD44F85-0290-9CE8-31D1-D4A03C9ACBA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

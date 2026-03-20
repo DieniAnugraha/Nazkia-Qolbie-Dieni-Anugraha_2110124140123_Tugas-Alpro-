@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0590C339-0788-313C-B4DA-318D03944A37" containerWithKeyObject="AA4059A0-F274-6550-6241-89A711AD459F" localFKIndex="21EA58C9-BCF6-BF3A-E50D-8B6819E9601B" name="fk_esd_skill">
+<sourceDDLFile>DDL_No3_Perusahaan_Industri_Komputer (1).sql</sourceDDLFile>
+<createdBy>USER</createdBy>
+<createdTime>2026-03-20 07:35:19 UTC</createdTime>
+<ownerDesignName>studi kasus 3 sbd</ownerDesignName>
+<importedID>3F6B2513-424A-5BDE-9E4C-A76A389759D6</importedID>
+<referredTableLongName>EMPLOYEE_SKILLS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EC447191-F31C-3553-B78E-F942F0949359</referredTableID>
+<keyObject>E96486D4-3D17-9F5F-BC5F-13E27BED0AB0</keyObject>
+<referredKeyID>E96486D4-3D17-9F5F-BC5F-13E27BED0AB0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>skill_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
